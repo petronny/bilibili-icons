@@ -8,3 +8,8 @@
 ```
 ./bilibili-icons.sh
 ```
+
+### 下载现成的表情包
+
+[点此下载](https://github.com/petronny/bilibili-icons/archive/master.zip)
+

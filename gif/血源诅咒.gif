@@ -81,8 +81,8 @@
       <div id="download">
         <ul id="system">
           <li><a class="windows" href="/files/Tunet2015.exe" title="Windows">Windows</a></li>
-          <li><a class="mac" href="/files/Tunet2015.dmg" title="MacOS">MacOS</a></li>
           <!--li><a class="mac"  title="MacOS">MacOS</a></li-->
+          <li><a class="mac" href="/files/Tunet2015.dmg" title="MacOS">MacOS</a></li>
           <li><a class="linux" href="/files/Tunet2015_linux.rar" title="Linux">Linux</a></li>
           <li><a class="android" href="/files/Tunet2015.apk" title="Android">Android</a></li>
           <li><a class="ios"  title="iOS">iOS</a></li>

@@ -8,6 +8,8 @@ for a in icons['fix']:
     #    continue
     print(a['title'])
     f=open(filename,'wb')
+    if a['icon'][0:2]=='//':
+        a['icon']='http:'+a['icon']
     img=urllib.request.urlopen(a['icon']).read()
     f.write(img)
     f.close()

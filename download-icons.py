@@ -1,6 +1,7 @@
 import json
 import urllib.request
 import os
+import time
 icons=json.load(open('index-icon.json'))
 for a in icons['fix']:
     filename='gif/'+a['title']+'.gif'
@@ -13,3 +14,4 @@ for a in icons['fix']:
     img=urllib.request.urlopen(a['icon']).read()
     f.write(img)
     f.close()
+    time.sleep(4)

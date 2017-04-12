@@ -11,6 +11,7 @@ for a in icons['fix']:
     f=open(filename,'wb')
     if a['icon'][0:2]=='//':
         a['icon']='http:'+a['icon']
+    a['icon']=a['icon'].replace('http:////','http://')
     img=urllib.request.urlopen(a['icon']).read()
     f.write(img)
     f.close()

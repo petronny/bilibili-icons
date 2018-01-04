@@ -15,4 +15,4 @@ for a in icons['fix']:
     img=urllib.request.urlopen(a['icon']).read()
     f.write(img)
     f.close()
-    time.sleep(4)
+    time.sleep(1)

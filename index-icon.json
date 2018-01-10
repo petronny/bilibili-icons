@@ -6347,19 +6347,6 @@
     }, {
         "deltime": "0",
         "edittime": "1514972989",
-        "endtime": "1481941440",
-        "icon": "//i0.hdslb.com/bfs/activity-plat/cover/20170508/p66vrzj57m.gif",
-        "id": "114",
-        "links": ["http://search.bilibili.com/all?keyword=绝对领域"],
-        "posttime": "1450319222",
-        "state": "1",
-        "sttime": "1450232640",
-        "title": "绝对领域",
-        "type": "fix",
-        "weight": "0"
-    }, {
-        "deltime": "0",
-        "edittime": "1514972989",
         "endtime": "1481799900",
         "icon": "//i0.hdslb.com/bfs/active/36b484b752de1071f50c40bdc7f554a9d9fc3125.gif",
         "id": "113",

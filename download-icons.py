@@ -8,11 +8,11 @@ for a in icons['fix']:
     #if os.path.exists(filename):
     #    continue
     print(a['title'])
-    f=open(filename,'wb')
     if a['icon'][0:2]=='//':
         a['icon']='http:'+a['icon']
     a['icon']=a['icon'].replace('http:////','http://')
     img=urllib.request.urlopen(a['icon']).read()
+    f=open(filename,'wb')
     f.write(img)
     f.close()
-    time.sleep(1)
+    time.sleep(0.5)
